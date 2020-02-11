@@ -1,0 +1,10 @@
+
+
+<a href="#" class = "logoutBtn">Logout</a>
+<div>
+  <a routerLink="dashboard"><a href="#" class="settingsBtn" > Settings</a></a>
+  <button class = "lessonsBtn">Lessons</button>
+  <div *ngIf="isSuperUser">
+    <button class = "patientInfoBtn">Patient Information</button>
+  </div>
+</div>
