@@ -4,11 +4,10 @@ import { ColumnComponent } from './column/column.component';
 import { HeaderComponent } from './header/header.component';
 import { RouterModule } from '@angular/router';
 
-
 @NgModule({
   declarations: [
     ColumnComponent,
-    HeaderComponent
+    HeaderComponent,
   ],
   imports: [
     CommonModule,
